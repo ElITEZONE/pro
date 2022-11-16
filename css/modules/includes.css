@@ -1,0 +1,268 @@
+.includes{
+    background: url(../../img/section-2.jpg);
+    padding: 40px 0 15px 0;
+}
+
+.includes .includes-title{
+    display: block;
+    margin: 0 auto;
+    max-width: 775px;
+
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    line-height: 120%;
+}
+.includes .includes-title span{
+    padding-left: 296px;
+}
+.includes span.includes-title-bold{
+    font-weight: 700;
+    padding-left: 196px;
+}
+
+.includes .includes-body{
+    display: grid;
+    grid-template: repeat(17, 25px)/repeat(32, 30px);
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.includes .includes-body .includes-body-content {
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.includes .includes-body .includes-body-content::before{
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.includes .includes-body .includes-body-content::after{
+    content: '';
+    position: absolute;
+    background: url(../../icons/redesing-arrow.png) center center / cover no-repeat;
+    width: 65px;
+    height: 83px;
+}
+
+.includes .includes-body .center{
+    grid-row: 7/11;
+    grid-column: 14/20;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.includes .includes-body .center::after{
+    display: none;
+}
+
+.includes .includes-body .content-1{
+    grid-column: 14/20;
+    grid-row: 2/4;
+}
+.includes .includes-body .content-1::before{
+    background: url(../../icons/num-1.svg) center center / cover no-repeat;
+    width: 34px;
+    height: 14px;
+}
+.includes .includes-body .content-1::after{
+    right: -90px;
+    top: 10px;
+}
+
+.includes .includes-body .content-2{
+    grid-column: 24/28;
+    grid-row: 3/7;
+}
+.includes .includes-body .content-2::before{
+    background: url(../../icons/num-2.svg) center center / cover no-repeat;
+    width: 40px;
+    height: 15px;
+}
+.includes .includes-body .content-2::after{
+    background: url(../../icons/triple-arrow.svg) center center / cover no-repeat;
+    width: 126px;
+    height: 65px;
+    right: 20px;
+    bottom: -75px;
+}
+
+.includes .includes-body .content-3{
+    grid-column: 30/33;
+    grid-row: 8/11;
+}
+.includes .includes-body .content-3::before{
+    background: url(../../icons/num-3.svg) center center / cover no-repeat;
+    width: 34px;
+    height: 15px;
+}
+.includes .includes-body .content-3::after{
+    display: none;
+}
+
+.includes .includes-body .content-4{
+    grid-column: 24/28;
+    grid-row: 13/16;
+}
+.includes .includes-body .content-4::before{
+    background: url(../../icons/num-4.svg) center center / cover no-repeat;
+    width: 38px;
+    height: 15px;
+}
+.includes .includes-body .content-4::after{
+    transform: rotateZ(180deg);
+    left: -100px;
+    bottom: 25px;
+}
+
+.includes .includes-body .content-5{
+    grid-column: 15/19;
+    grid-row: 14/18;
+}
+.includes .includes-body .content-5::before{
+    background: url(../../icons/num-5.svg) center center / cover no-repeat;
+    width: 41px;
+    height: 15px;
+}
+.includes .includes-body .content-5::after{
+    top: -70px;
+    left: -120px;
+    transform: rotateZ(180deg);
+}
+
+.includes .includes-body .content-6{
+    grid-column: 6/10;
+    grid-row: 13/15;
+}
+.includes .includes-body .content-6::before{
+    background: url(../../icons/num-6.svg) center center / cover no-repeat;
+    width: 41px;
+    height: 18px;
+}
+.includes .includes-body .content-6::after{
+    background: url(../../icons/triple-arrow.svg) center center / cover no-repeat;
+    width: 126px;
+    height: 65px;
+    transform: rotate(180deg);
+    top: -130px;
+    left: 7px;
+}
+
+.includes .includes-body .content-7{
+    grid-column: 1/5;
+    grid-row: 8/10;
+}
+.includes .includes-body .content-7::before{
+    background: url(../../icons/num-7.svg) center center / cover no-repeat;
+    width: 41px;
+    height: 18px;
+}
+.includes .includes-body .content-7::after{
+    display: none;
+}
+
+.includes .includes-body .content-8{
+    grid-column: 6/10;
+    grid-row: 3/7;
+}
+.includes .includes-body .content-8::before{
+    background: url(../../icons/num-8.svg) center center / cover no-repeat;
+    width: 41px;
+    height: 18px;
+}
+.includes .includes-body .content-8::after{
+    right: -100px;
+    top: -20px;
+}
+
+
+@media (max-width: 991px) {
+    .includes .includes-title{
+        width: max-content;
+        font-size: 32px;
+        display: block;
+        margin: 0 auto;
+    }
+    .includes .includes-title span{
+        padding-left: 150px;
+    }
+    .includes span.includes-title-bold{
+        padding-left: 100px;
+    }
+    .includes .includes-body .includes-body-content{
+        font-size: 14px;
+    }
+    .includes .includes-body{
+        grid-template: repeat(17, 17px)/repeat(32, 20.4px);
+    }
+    .includes .includes-body .center{
+        padding: 0 10px;
+    }
+    .includes .includes-body .includes-body-content::after{
+        width: 35px;
+        height: 43px;
+    }
+    .includes .includes-body .content-1::after{
+        right: -60px;
+        top: 5px;
+    }
+    .includes .includes-body .content-2::after{
+        width: 68px;
+        height: 35px;
+        top: 80px;
+    }
+    .includes .includes-body .content-4::after{
+        left: -60px;
+        bottom: 20px;
+    }
+    .includes .includes-body .content-5::after{
+        left: -60px;
+        top: -30px;
+    }
+    .includes .includes-body .content-6::after{
+        width: 68px;
+        height: 35px;
+        top: -90px;
+        left: 7px;
+    }
+    .includes .includes-body .content-7::after{
+        right: -90px;
+        top: 10px;
+    }
+    .includes .includes-body .content-8::after{
+        right: -80px;
+        top: 0px;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .includes .includes-title{
+        text-align: center;
+        width: 350px;
+        font-size: 28px;
+    }
+    .includes .includes-title span{
+        padding-left: 0px;
+    }
+    .includes span.includes-title-bold{
+        padding-left: 0px;
+    }
+    .includes .includes-body{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .includes .includes-body .includes-body-content{
+        font-size: 24px;
+    }
+    .includes .includes-body .includes-body-content::after{
+        display: none;
+    }
+}

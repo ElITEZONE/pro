@@ -1,0 +1,117 @@
+.first-portfolio{
+    margin-top: 33px;
+}
+
+.first-portfolio .container{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.first-portfolio .first-body{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: 0.25em;
+
+}
+
+.portfolio{
+    background-color: var(--bg-color-500);
+    padding: 45px 0;
+}
+
+.portfolio .container{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 360px);
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.portfolio .portfolio-card{
+    position: relative;
+}
+
+.portfolio .portfolio-card .portfolio-card-img {
+    min-height: 300px;
+}
+
+.portfolio .portfolio-card img{
+    border-radius: 10px;
+}
+
+.portfolio .portfolio-card .card-body{
+    position: absolute;
+    bottom: 26px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.portfolio .portfolio-card .card-body .card-title{
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.25em;
+    color: var(--text-color-300);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.portfolio .portfolio-card .card-body .card-link a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color-300);
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+}
+
+
+@media(max-width: 1185px){
+    .first-portfolio .container{
+        display: block;
+        text-align: center;
+    }
+    .first-portfolio .portfolio-intro img{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .first-portfolio .first-body{
+        font-size: 32px;
+        letter-spacing: .15em;
+    }
+    .first-portfolio .portfolio-intro{
+        display: none;
+    }
+    
+}
+
+@media (max-width:510px) {
+    .portfolio .container{
+        grid-template-columns: 300px;
+    }
+    .portfolio .portfolio-card{
+        width: 300px;
+        display: grid;
+        justify-content: center;
+    }
+    .portfolio .portfolio-card .card-bg{
+        width: 100%;
+    }
+    .portfolio .portfolio-card .card-body .card-link a{
+        font-size: 15px;
+    }
+    .first-portfolio .first-body{
+        font-size: 21px;
+        letter-spacing: .10em;
+    }
+    
+}

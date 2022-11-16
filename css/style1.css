@@ -1,0 +1,52 @@
+@import url('modules/reboot.css');
+@import url('modules/header.css');
+@import url('modules/vars.css');
+@import url('modules/buttons.css');
+@import url('modules/fonts.css');
+@import url('modules/intro.css');
+@import url('modules/title.css');
+@import url('modules/work.css');
+@import url('modules/services.css');
+@import url('modules/slider.css');
+@import url('modules/companies.css');
+@import url('modules/footer.css');
+@import url('modules/about.css');
+@import url('modules/portfolio.css');
+@import url('modules/asset-management.css');
+@import url('modules/popup.css');
+@import url('modules/professional.css');
+@import url('modules/developed.css');
+@import url('modules/our-offers.css');
+@import url('modules/redesign.css');
+@import url('modules/includes.css');
+
+*, a, div{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--bg-color-300);
+
+}
+
+body.services{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+@media (max-width:1150px) {
+    .container{
+        padding: 0 5px;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.companies{
+    margin-top: 30px;
+}
+
+.companies .companies-body{
+    border-top: 1px solid var(--bg-color-800);
+    border-bottom: 1px solid var(--bg-color-800);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27px;
+    padding: 50px 20px;
+    margin-top: 50px;
+    overflow-x: auto;
+    gap: 20px;
+}

@@ -1,0 +1,47 @@
+
+
+.developed-title{
+    text-align: left;
+    letter-spacing: .105em;
+}
+
+.developed-descr{
+    margin-top: 20px;
+}
+
+.developed-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.developed-cards .developed-card{
+    box-shadow: 0px 4px 18px 6px rgba(0, 0, 0, 0.04);
+    padding: 9px 11px;
+    border-radius: 25px;
+    margin-top: 30px;
+    height: 228px;
+}
+
+.developed-cards .card-developed .card-developed-title{
+    letter-spacing: .05em;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.developed-cards .card-developed .card-developed-descr{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+.developed-cards .card-developed .card-developed-img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+}

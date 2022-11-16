@@ -1,0 +1,71 @@
+.button{
+    width: 160px;
+    height: 50px;
+    background-color: var(--bg-color-100);
+    border: none;
+    border-radius: 6px;
+    color: var(--text-color-300);
+    cursor: pointer;
+}
+
+.header-button {
+    width: 155px;
+    height: 40px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--bg-color-100-hover);
+}
+
+.intro-button{
+    width: 194px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.button-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 188px;
+    height: 50px;
+    background-color: var(--bg-color-300);
+    color: var(--text-color-100);
+    border: 1px solid var(--bg-color-400);
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.button-video:hover {
+    background: var(--bg-color-300);
+    border: 1px solid var(--bg-color-100);
+}
+.video-img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+    background-color: var(--bg-color-100);
+    border-radius: 100%;
+}
+
+.slider-button {
+    height: 45px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1140px) {
+    .button{
+        width: 145px;
+        height: 40px;
+    }
+    
+}
