@@ -6,6 +6,12 @@
     border-radius: 6px;
     color: var(--text-color-300);
     cursor: pointer;
+    text-align: center;
+}
+
+a .button {
+    text-decaration: none;
+    text-align: center;
 }
 
 .header-button {
