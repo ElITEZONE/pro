@@ -9,14 +9,13 @@
     text-align: center;
     
 }
-a .button {
+
+a.button {
+   	text-decoration: none;
+   	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-a.button {
-   text-decoration: none;
-    text-align: center;
 }
 
 .header-button {
